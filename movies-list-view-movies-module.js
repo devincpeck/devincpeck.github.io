@@ -87,6 +87,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var _services_swapi_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/swapi.service */ "X02B");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/progress-spinner */ "pu8Q");
+
 
 
 
@@ -167,7 +169,7 @@ MovieDetailViewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
     } if (rf & 2) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](1, 2, ctx.movie$))("ngIfElse", _r1);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], styles: [".attribute-list[_ngcontent-%COMP%] {\r\n  color: rgb(21, 22, 24);\r\n}\r\n\r\n.loading[_ngcontent-%COMP%] {\r\n  margin: 25% 50%;\r\n}\r\n\r\n.attribute[_ngcontent-%COMP%] {\r\n  font-style: italic;\r\n  color:rgb(104, 104, 104);\r\n}\r\n\r\n.value[_ngcontent-%COMP%] {\r\n  font-style: normal;\r\n  font-size: large;\r\n  font-weight: bold;\r\n}\r\n\r\nul[_ngcontent-%COMP%] {\r\n  padding-inline-start: 20px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vdmllLWRldGFpbC12aWV3LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCIiwiZmlsZSI6Im1vdmllLWRldGFpbC12aWV3LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXR0cmlidXRlLWxpc3Qge1xyXG4gIGNvbG9yOiByZ2IoMjEsIDIyLCAyNCk7XHJcbn1cclxuXHJcbi5sb2FkaW5nIHtcclxuICBtYXJnaW46IDI1JSA1MCU7XHJcbn1cclxuXHJcbi5hdHRyaWJ1dGUge1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICBjb2xvcjpyZ2IoMTA0LCAxMDQsIDEwNCk7XHJcbn1cclxuXHJcbi52YWx1ZSB7XHJcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbnVsIHtcclxuICBwYWRkaW5nLWlubGluZS1zdGFydDogMjBweDtcclxufVxyXG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__["MatSpinner"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], styles: [".attribute-list[_ngcontent-%COMP%] {\r\n  color: rgb(21, 22, 24);\r\n}\r\n\r\n.loading[_ngcontent-%COMP%] {\r\n  margin: 25% 50%;\r\n}\r\n\r\n.attribute[_ngcontent-%COMP%] {\r\n  font-style: italic;\r\n  color:rgb(104, 104, 104);\r\n}\r\n\r\n.value[_ngcontent-%COMP%] {\r\n  font-style: normal;\r\n  font-size: large;\r\n  font-weight: bold;\r\n}\r\n\r\nul[_ngcontent-%COMP%] {\r\n  padding-inline-start: 20px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vdmllLWRldGFpbC12aWV3LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLHdCQUF3QjtBQUMxQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCIiwiZmlsZSI6Im1vdmllLWRldGFpbC12aWV3LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXR0cmlidXRlLWxpc3Qge1xyXG4gIGNvbG9yOiByZ2IoMjEsIDIyLCAyNCk7XHJcbn1cclxuXHJcbi5sb2FkaW5nIHtcclxuICBtYXJnaW46IDI1JSA1MCU7XHJcbn1cclxuXHJcbi5hdHRyaWJ1dGUge1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICBjb2xvcjpyZ2IoMTA0LCAxMDQsIDEwNCk7XHJcbn1cclxuXHJcbi52YWx1ZSB7XHJcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbnVsIHtcclxuICBwYWRkaW5nLWlubGluZS1zdGFydDogMjBweDtcclxufVxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MovieDetailViewComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -199,6 +201,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _movies_list_view_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./movies-list-view.component */ "53hy");
 /* harmony import */ var _movie_detail_view_movie_detail_view_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../movie-detail-view/movie-detail-view.component */ "WzR7");
 /* harmony import */ var _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./movies-routing.module */ "iIcd");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/progress-spinner */ "pu8Q");
+
 
 
 
@@ -219,13 +223,15 @@ MoviesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
             _shared_shared_module__WEBPACK_IMPORTED_MODULE_3__["SharedModule"],
             _angular_material_table__WEBPACK_IMPORTED_MODULE_4__["MatTableModule"],
             _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
-            _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"]
+            _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"],
+            _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](MoviesModule, { declarations: [_movies_list_view_component__WEBPACK_IMPORTED_MODULE_6__["MoviesListViewComponent"], _movie_detail_view_movie_detail_view_component__WEBPACK_IMPORTED_MODULE_7__["MovieDetailViewComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_3__["SharedModule"],
         _angular_material_table__WEBPACK_IMPORTED_MODULE_4__["MatTableModule"],
         _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
-        _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"]], exports: [_movies_list_view_component__WEBPACK_IMPORTED_MODULE_6__["MoviesListViewComponent"]] }); })();
+        _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"],
+        _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"]], exports: [_movies_list_view_component__WEBPACK_IMPORTED_MODULE_6__["MoviesListViewComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MoviesModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -235,7 +241,8 @@ MoviesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                     _shared_shared_module__WEBPACK_IMPORTED_MODULE_3__["SharedModule"],
                     _angular_material_table__WEBPACK_IMPORTED_MODULE_4__["MatTableModule"],
                     _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
-                    _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"]
+                    _movies_routing_module__WEBPACK_IMPORTED_MODULE_8__["MoviesRoutingModule"],
+                    _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"]
                 ],
                 providers: [
                     _services_swapi_service__WEBPACK_IMPORTED_MODULE_2__["SwapiService"]
